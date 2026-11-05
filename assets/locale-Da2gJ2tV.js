@@ -1,0 +1,1 @@
+var e=`pushupgame-site/lang`;function t(){try{let t=localStorage.getItem(e);if(t===`ru`||t===`en`)return t}catch{}return`en`}var n=t();globalThis.__PUSHUPGAME_LOCALE__=n,globalThis.__DEV__=!1;export{n,e as t};
